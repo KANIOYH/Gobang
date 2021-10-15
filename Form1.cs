@@ -18,7 +18,7 @@ namespace 五子棋
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Gameing game = new Gameing();
+            Gameing game = new Gameing();//text
             game.ShowDialog(this);
         }
 
